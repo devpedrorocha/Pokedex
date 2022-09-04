@@ -1,6 +1,6 @@
 # Projeto Pokedex do Canal Manual do Dev
 
-Esse foi mais um projeto em que usei HTML, CSS e JS, mas dessa vez já conhecendo os conceitos de promisses, API, etc.
+Esse foi mais um projeto em que usei HTML, CSS e JS, mas dessa vez já conhecendo os conceitos de promisses, API, Responsividade, etc.
 A base em si do projeto fui me espelhando no vídeo mas acrescentei um novo botão de descrição que traz um Modal (Pop-Up) animado.
 
 Consiste em uma Pokedex, em que se pode fazer a pesquisa por ID ou por Nome. Também tem uma mensagem caso o Nome ou o Id não exista.
