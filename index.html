@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- Links --->
+    <link rel="icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Main JS-->
+    <script defer src="./js/script.js"></script>
+
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon_image">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Name or Number" required>
+        </form>
+
+
+
+        <div class="buttons">
+            <button class="button btn-prev">Previous &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
+        <div class="btnSolo">
+            <button class="button btn-desc" onclick="openModal()">Description</button>
+        </div>
+
+        <img src="images/pokedex-img.png" alt="pokedex" class="pokedex">
+
+        <div class="modal-container">
+            <div class="modal">
+                <div class="type">
+                    <p>Type</p>
+                    <span class="spanType"></span>
+                </div>
+                <div>
+                    <p>Stats</p>
+                    <ul class="stats">
+                        <li class="hp"></li>
+                        <li class="attack"></li>
+                        <li class="defense"></li>
+                        <li class="special-attack"></li>
+                        <li class="special-defense"></li>
+                        <li class="speed"></li>
+                    </ul>
+                    <div class="btnsModal">
+                        <button class="button btnClose" onclick="closeModal()">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
